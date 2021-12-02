@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Biotif/Biotif-Black.ttf';
+import './fonts/Biotif/Biotif-Bold.ttf';
+import './fonts/Biotif/Biotif-Book.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
