@@ -16,6 +16,11 @@ body {
   margin: 0;
 }
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @font-face {
   font-family: 'Biotif-Black';
   src: local('Biotif-Black'), url('./fonts/Biotif/Biotif-Black.ttf') format('truetype');
