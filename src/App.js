@@ -7,11 +7,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>arthur</h1>
-        <img src={plant} className="App-logo" alt="logo" />
         <img src={gitLogo} className="Dev-icon" alt="logo" />
         <img src={linkLogo} className="Dev-icon" alt="logo" />
       </header>
+      <div className="Arthur-plant">
+        <div className="Welcome-text">
+          <h6>hello, i am</h6>
+          <h1>arthur</h1>
+          <h6>a web developer based in London</h6>
+        </div>
+        <img src={plant} className="App-logo" alt="logo" />
+      </div>
     </div>
   );
 }
