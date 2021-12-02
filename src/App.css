@@ -50,3 +50,10 @@
 .Welcome-text > * {
   margin: 0;
 }
+
+.logo-link {
+  display: block;
+  border: 1px solid red;
+  margin: 10px;
+  padding: 0;
+}

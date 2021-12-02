@@ -7,8 +7,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={gitLogo} className="giHu-icon" alt="logo" />
-        <img src={linkLogo} className="liIn-icon" alt="logo" />
+        <a className="logo-link" href="https://github.com/arthurfincham">
+          <img src={gitLogo} className="giHu-icon" alt="logo" />
+        </a>
+        <a className="logo-link" href="https://www.linkedin.com/in/arthurfincham/">
+          <img src={linkLogo} className="liIn-icon" alt="logo" />
+        </a>
       </header>
       <div className="Arthur-plant">
         <div className="Welcome-text">
