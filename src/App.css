@@ -53,7 +53,13 @@
 
 .logo-link {
   display: block;
-  border: 1px solid red;
   margin: 10px;
   padding: 0;
+}
+
+#github-link:hover {
+  fill: gray !important;
+}
+#linked-in:hover {
+  fill: gray !important;
 }
