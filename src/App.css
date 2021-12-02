@@ -3,6 +3,26 @@
   background-color: #000000;
 }
 
+@keyframes name-of-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Welcome-text {
+  animation: name-of-animation 8s;
+}
+
+.App-logo {
+  animation: name-of-animation 4s;
+}
+.logo-link {
+  animation: name-of-animation 8s;
+}
+
 .giHu-logo,
 .App-logo,
 .liIn-logo {
