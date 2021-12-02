@@ -3,15 +3,17 @@
   background-color: #000000;
 }
 
-.App-logo {
+.giHu-logo,
+.App-logo,
+.liIn-logo {
   height: 80vmin;
   pointer-events: none;
 }
 
 .App-header {
   position: absolute;
-  top: 10vh;
-  right: 5vw;
+  top: 3vh;
+  right: 4vw;
 }
 
 .Arthur-plant {

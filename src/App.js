@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={gitLogo} className="Dev-icon" alt="logo" />
-        <img src={linkLogo} className="Dev-icon" alt="logo" />
+        <img src={gitLogo} className="giHu-icon" alt="logo" />
+        <img src={linkLogo} className="liIn-icon" alt="logo" />
       </header>
       <div className="Arthur-plant">
         <div className="Welcome-text">
