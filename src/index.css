@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: '-apple-system, BlinkMacSystemFont, ' Segoe UI ', ' Roboto ', ' Oxygen ', ' Ubuntu ', ' Cantarell ', ' Fira Sans ', ' Droid Sans ', '
-    Helvetica Neue ',' sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+body {
+  margin: 0;
 }
 
 @font-face {
@@ -25,14 +31,20 @@ code {
   src: local('Biotif-Book'), url('./fonts/Biotif/Biotif-Book.ttf') format('truetype');
 }
 
-.bio-black {
+h1,
+h2 {
   font-family: 'Biotif-Black';
 }
 
-.bio-bold {
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Biotif-Bold';
 }
 
-.bio-book {
+p,
+li,
+a {
   font-family: 'Biotif-Book';
 }
