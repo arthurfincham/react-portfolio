@@ -103,14 +103,13 @@
 }
 
 .section-box {
+  padding: 1em;
   position: relative;
-}
-.sticky-thc,
-th {
-  position: sticky;
-  top: 0;
+  text-align: left;
 }
 
-.body-row {
-  height: 80vh;
+.sticky-thc {
+  position: sticky;
+  top: 0;
+  background-color: black;
 }
