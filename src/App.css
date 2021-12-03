@@ -1,6 +1,64 @@
 .App {
   text-align: center;
   background-color: #000000;
+  /* animation: name-of-animation 4s; */
+}
+
+.Welcome-page {
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-header {
+  position: absolute;
+  top: 3vh;
+  right: 4vw;
+  display: flex;
+}
+
+.dev-link-icon {
+  width: 4em;
+}
+
+.App-logo {
+  transform: rotate(105deg);
+  height: 70vmin;
+  position: absolute;
+  top: 30vh;
+  left: -15vw;
+  pointer-events: none;
+}
+
+.Welcome-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  max-width: 12ch;
+  color: white;
+  position: absolute;
+  margin: 0 auto;
+  top: 15vh;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.Welcome-text > * {
+  margin: 0;
+}
+
+.Welcome-text > h1 {
+  font-size: 3em;
+}
+
+.logo-link {
+  display: block;
+  margin: 0.2em;
+  padding: 0;
+}
+
+.logo-link:hover {
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
 }
 
 @keyframes name-of-animation {
@@ -10,73 +68,4 @@
   100% {
     opacity: 1;
   }
-}
-
-.Welcome-text {
-  animation: name-of-animation 8s;
-}
-
-.App-logo {
-  animation: name-of-animation 4s;
-}
-.logo-link {
-  animation: name-of-animation 8s;
-}
-
-.giHu-logo,
-.App-logo,
-.liIn-logo {
-  height: 80vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  position: absolute;
-  top: 3vh;
-  right: 4vw;
-}
-
-.Arthur-plant {
-  min-height: 100vh;
-  width: 70vw;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  position: sticky;
-  top: 0;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.Dev-icon {
-  height: 8vmin;
-  margin: 1vmin;
-}
-
-.Welcome-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width: 12ch;
-}
-
-.Welcome-text > * {
-  margin: 0;
-}
-
-.logo-link {
-  display: block;
-  margin: 10px;
-  padding: 0;
-}
-
-.logo-link:hover {
-  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
 }
