@@ -3,7 +3,7 @@ import ghText from '../svgs/githubText.svg';
 
 export default function Projects() {
   return (
-    <div class="section-box" id="Projects">
+    <div className="section-box" id="Projects">
       <div className="sticky-thc">
         <h1 className="">Projects</h1>
         <img src={plusLine} className="Plus-line" alt="logo" />
@@ -22,7 +22,7 @@ export default function Projects() {
           can write down what you learned, tag it, and then build a repository of techniques and ideas that can be quickly accessed.
         </p>
       </div>
-      <hr class="" />
+      <hr className="" />
       <div className="item-container">
         <h2>acebook</h2>
         <div className="flex-row">
@@ -36,7 +36,7 @@ export default function Projects() {
           such as sprints to build our features and a Kanban board on Trello to keep track of our progress.
         </p>
       </div>
-      <hr class="" />
+      <hr className="" />
       <div className="item-container">
         <h2>Instaclone</h2>
         <div className="flex-row">
@@ -50,7 +50,7 @@ export default function Projects() {
           helper method extracts any strings beginning with '#', then adds them to the post's tag_list.
         </p>
       </div>
-      <hr class="" />
+      <hr className="" />
       <div className="item-container">
         <h2>News Summary</h2>
         <div className="flex-row">
@@ -63,7 +63,7 @@ export default function Projects() {
           API based news summary project. Makers Solo Weekend Challenge: build a single web page app which summarises stories from the Guardian API.
         </p>
       </div>
-      <hr class="" />
+      <hr className="" />
       <div className="item-container">
         <h2>Chitter</h2>
         <h5>Weekend Challenge</h5>

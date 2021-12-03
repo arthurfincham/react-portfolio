@@ -3,7 +3,7 @@ import locIcon from '../svgs/locationIcon.svg';
 import emailIcon from '../svgs/emailIcon.svg';
 export default function Contact() {
   return (
-    <div class="section-box" id="Contact">
+    <div className="section-box" id="Contact">
       <div className="sticky-thc">
         <h1 className="">Contact</h1>
         <img src={plusLine} className="Plus-line" alt="logo" />
