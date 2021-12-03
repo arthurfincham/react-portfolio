@@ -21,6 +21,12 @@ export default function AnchorLinks() {
         </a>
         <img src={whiteLine} className="White-line" alt="logo" />
       </div>
+      <div className="anchor-container">
+        <a href="#Contact" className="anchor">
+          Contact
+        </a>
+        <img src={whiteLine} className="White-line" alt="logo" />
+      </div>
     </div>
   );
 }

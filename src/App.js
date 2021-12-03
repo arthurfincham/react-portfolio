@@ -1,7 +1,9 @@
 import plant from './svgs/nounPlant.svg';
 import AnchorLinks from './components/AnchorLinks';
 import Education from './components/Education';
-import plusLine from './svgs/plusDivider.svg';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 import IconLinks from './components/IconLinks';
 import './App.css';
 
@@ -14,11 +16,13 @@ function App() {
           <h6>hello, i am</h6>
           <h1>arthur</h1>
         </div>
-        <img src={plant} className="App-logo" alt="logo" />
+        <img src={plant} className="App-logo svg" alt="logo" />
         <AnchorLinks />
       </div>
-      <img src={plusLine} className="Plus-line" alt="logo" />
-      <Education />
+      <Education className="education-section" />
+      <Experience />
+      <Projects />
+      <Contact />
     </div>
   );
 }
