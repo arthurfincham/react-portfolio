@@ -1,7 +1,6 @@
-import headIcon from '../svgs/headIcon.svg';
 import uniIcon from '../svgs/uniIcon.svg';
 import plusLine from '../svgs/plusDivider.svg';
-import TechSpinner from './TechSpinner';
+import techHead from '../svgs/techHead.svg';
 export default function Education() {
   return (
     <div class="section-box" id="Education">
@@ -16,7 +15,6 @@ export default function Education() {
             <h4>Software Engineering</h4>
             <h3 class="">2021</h3>
           </div>
-          <img src={headIcon} className="White-line" alt="logo" />
         </div>
         <p class="">16 week highly selective development bootcamp;</p>
         <ul>
@@ -25,7 +23,7 @@ export default function Education() {
           <li class="">Ruby, Rails, JavaScript</li>
           <li class="">RSpec, Jasmine</li>
         </ul>
-        <TechSpinner />
+        <img src={techHead} id="tech-head" alt="techhead" />
       </div>
       <hr class="" />
       <div className="item-container">
