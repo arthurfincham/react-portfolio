@@ -6,12 +6,12 @@ export default function Contact() {
     <div className="section-box" id="Contact">
       <div className="sticky-thc">
         <h1 className="">Contact</h1>
-        <img src={plusLine} className="Plus-line" alt="logo" />
+        <img src={plusLine} className="svg Plus-line" alt="logo" />
       </div>
       <div className="flex-col centered h-75">
         <img src={locIcon} className="loc-icon" alt="location" />
         <h2>London, United Kingdom</h2>
-        <img src={emailIcon} className="email-icon" alt="email" />
+        <img src={emailIcon} className="svg email-icon" alt="email" />
         <h2>arthurfincham@me.com</h2>
       </div>
     </div>

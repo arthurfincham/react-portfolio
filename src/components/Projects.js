@@ -6,14 +6,14 @@ export default function Projects() {
     <div className="section-box" id="Projects">
       <div className="sticky-thc">
         <h1 className="">Projects</h1>
-        <img src={plusLine} className="Plus-line" alt="logo" />
+        <img src={plusLine} className="svg Plus-line" alt="logo" />
       </div>
       <div className="item-container">
         <h2>ClassNotes</h2>
         <div className="flex-row">
           <h5>Personal Project</h5>
           <a href="a">
-            <img src={ghText} className="edu-icons" alt="" />
+            <img src={ghText} className="svg edu-icons" alt="" />
           </a>
         </div>
         <p>
@@ -28,7 +28,7 @@ export default function Projects() {
         <div className="flex-row">
           <h5>Group engineering project</h5>
           <a href="b">
-            <img src={ghText} className="edu-icons" alt="" />
+            <img src={ghText} className="svg edu-icons" alt="" />
           </a>
         </div>
         <p>
@@ -42,7 +42,7 @@ export default function Projects() {
         <div className="flex-row">
           <h5>Weekend Challenge</h5>
           <a href="a">
-            <img src={ghText} className="edu-icons" alt="" />
+            <img src={ghText} className="svg edu-icons" alt="" />
           </a>
         </div>
         <p>
@@ -56,7 +56,7 @@ export default function Projects() {
         <div className="flex-row">
           <h5>Weekend Challenge</h5>
           <a href="c">
-            <img src={ghText} className="edu-icons" alt="" />
+            <img src={ghText} className="svg edu-icons" alt="" />
           </a>
         </div>
         <p>

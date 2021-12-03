@@ -7,7 +7,7 @@ export default function Experience() {
     <div className="section-box" id="Experience">
       <div className="sticky-thc">
         <h1 className="">Experience</h1>
-        <img src={plusLine} className="Plus-line" alt="logo" />
+        <img src={plusLine} className="Plus-line svg" alt="logo" />
       </div>
       <div className="item-container">
         <h1>Roger Gracie Academy</h1>
@@ -16,7 +16,7 @@ export default function Experience() {
             <h4>Front Desk</h4>
             <h5>Nov 2019 - Aug 2021</h5>
           </div>
-          <img src={bjjIcon} className="edu-icons" alt="logo" />
+          <img src={bjjIcon} className="edu-icons svg" alt="logo" />
         </div>
         <p>
           For my last few years at university I worked at Roger Gracie Academy, a world famous Brazilian Jiu Jitsu academy in London. My
@@ -32,7 +32,7 @@ export default function Experience() {
             <h4>Chef/Owner</h4>
             <h5 className="">Jul 2016 - April 2019</h5>
           </div>
-          <img src={cookingIcon} className="edu-icons" alt="logo" />
+          <img src={cookingIcon} className="edu-icons svg" alt="logo" />
         </div>
         <p className="">
           When I was 17 I set up a food stall for Notting Hill Carnival. Over the years my love for cooking turned into a small catering company that
@@ -48,7 +48,7 @@ export default function Experience() {
             <h4>Floor Runner</h4>
             <h5 className="">May 2016 - June 2016</h5>
           </div>
-          <img src={cameraIcon} className="edu-icons" alt="logo" />
+          <img src={cameraIcon} className="edu-icons svg" alt="logo" />
         </div>
         <p className="">
           Over 6 weeks I worked as a runner during the production of Episodes, Showtime & BBC. Logistics and maintaining the smooth flow of the shoot
