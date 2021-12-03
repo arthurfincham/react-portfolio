@@ -28,7 +28,7 @@ function App() {
               <h6>hello, i am</h6>
               <h1>arthur</h1>
             </div>
-            <img src={plant} id="App-logo" alt="logo" />
+            <img src={plant} className="svg" id="App-logo" alt="logo" />
             <AnchorLinks />
           </div>
           <Education className="education-section" />

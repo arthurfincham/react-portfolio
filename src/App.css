@@ -120,7 +120,7 @@
 .sticky-thc {
   position: sticky;
   top: -1vh;
-  background-color: black !important;
+  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -162,7 +162,8 @@
   right: 10vw;
 }
 
-.loc-icon {
+.loc-icon,
+.uni-icon {
   width: 15vmin;
 }
 

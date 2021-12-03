@@ -12,7 +12,7 @@ export default function Projects() {
         <h2>ClassNotes</h2>
         <div className="flex-row">
           <h5>Personal Project</h5>
-          <a href="">
+          <a href="a">
             <img src={ghText} className="edu-icons" alt="" />
           </a>
         </div>
@@ -27,7 +27,7 @@ export default function Projects() {
         <h2>acebook</h2>
         <div className="flex-row">
           <h5>Group engineering project</h5>
-          <a href="">
+          <a href="b">
             <img src={ghText} className="edu-icons" alt="" />
           </a>
         </div>
@@ -41,7 +41,7 @@ export default function Projects() {
         <h2>Instaclone</h2>
         <div className="flex-row">
           <h5>Weekend Challenge</h5>
-          <a href="">
+          <a href="a">
             <img src={ghText} className="edu-icons" alt="" />
           </a>
         </div>
@@ -55,7 +55,7 @@ export default function Projects() {
         <h2>News Summary</h2>
         <div className="flex-row">
           <h5>Weekend Challenge</h5>
-          <a href="">
+          <a href="c">
             <img src={ghText} className="edu-icons" alt="" />
           </a>
         </div>
