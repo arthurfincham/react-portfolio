@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
   color: white;
@@ -159,7 +164,7 @@
 
 .Plus-line {
   margin: 0 auto;
-  width: 40vmin;
+  width: 35vmin;
 }
 
 .edu-icons {
