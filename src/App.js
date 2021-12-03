@@ -9,17 +9,33 @@ import IconLinks from './components/IconLinks';
 import './App.css';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './components/globalStyles';
-import { lightTheme, darkTheme } from './components/Themes';
+import { lightTheme, darkTheme, paleTheme, greenTheme } from './components/Themes';
 
 function App() {
   const [theme, setTheme] = useState('light');
-  const themeToggler = () => {
-    theme === 'light' ? setTheme('dark') : setTheme('light');
+  const themeToggler = (input) => {
+    setTheme(input);
   };
+
+  const themePicker = (input) => {
+    if (input === 'dark') {
+      return darkTheme;
+    } else if (input === 'light') {
+      return lightTheme;
+    } else if (input === 'pale') {
+      return paleTheme;
+    } else if (input === 'green') {
+      return greenTheme;
+    }
+  };
+
   return (
     <>
-      <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
-        <button onClick={themeToggler}>THEME</button>
+      <ThemeProvider theme={themePicker(theme)}>
+        <button onClick={() => themeToggler('dark')}>DARK</button>
+        <button onClick={() => themeToggler('light')}>LIGHT</button>
+        <button onClick={() => themeToggler('pale')}>pale</button>
+        <button onClick={() => themeToggler('green')}>green</button>
         <GlobalStyles />
         <div className="App">
           <div className="Welcome-page">
