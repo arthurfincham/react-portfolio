@@ -103,9 +103,14 @@
 }
 
 .section-box {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 1em;
+  position: relative;
+}
+.sticky-thc,
+th {
+  position: sticky;
+  top: 0;
+}
+
+.body-row {
+  height: 80vh;
 }
