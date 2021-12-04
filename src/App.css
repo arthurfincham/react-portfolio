@@ -203,3 +203,12 @@
     transform: translateX(-50%);
   }
 }
+
+.project-repo-link {
+  width: 15vmin;
+}
+
+.row-center {
+  align-items: center;
+  margin-top: 1em;
+}
