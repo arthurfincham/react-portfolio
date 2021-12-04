@@ -1,8 +1,10 @@
 import cookingIcon from '../svgs/cookingIcon.svg';
-import bjjIcon from '../svgs/bjjIcon.svg';
+import BjjIcon from './graphics/BjjIcon.js';
 import cameraIcon from '../svgs/cameraIcon.svg';
 import Divider from './graphics/Divider';
 export default function Experience() {
+  const fill = 'white';
+  const svgClass = 'edu-icons';
   return (
     <div className="section-box" id="Experience">
       <h1 className="sticky-thc">Experience</h1>
@@ -13,7 +15,7 @@ export default function Experience() {
             <h4>Front Desk</h4>
             <h5>Nov 2019 - Aug 2021</h5>
           </div>
-          <img src={bjjIcon} className="edu-icons svg" alt="logo" />
+          <BjjIcon fill={fill} svgClass={svgClass} />
         </div>
         <p>
           For my last few years at university I worked at Roger Gracie Academy, a world famous Brazilian Jiu Jitsu academy in London. My

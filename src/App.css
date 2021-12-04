@@ -69,7 +69,7 @@
   filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
 }
 
-.White-line {
+.hand-line {
   max-width: 100%;
   max-height: 100%;
   margin: 0;
@@ -151,7 +151,7 @@
   width: 90%;
 }
 
-.Plus-line {
+.divider {
   margin: 0 auto;
   width: 100%;
 }

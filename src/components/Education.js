@@ -21,7 +21,7 @@ export default function Education() {
           <li className="">Ruby, Rails, JavaScript</li>
           <li className="">RSpec, Jasmine</li>
         </ul>
-        <TechHead fill={fill} />
+        <TechHead fill={fill} svgClass={'svg'} />
       </div>
       <Divider fill={fill} />
       <div className="item-container">

@@ -1,10 +1,10 @@
-export default function TechHead({ fill }) {
+export default function TechHead({ fill, svgClass }) {
   return (
     <svg
       width="100"
       height="auto"
       fill={fill}
-      className="svg"
+      className={svgClass}
       id="tech-head"
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
