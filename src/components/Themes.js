@@ -15,12 +15,7 @@ export const paleTheme = {
   background: '#F2F1EB',
   text: '#4057A1',
   headers: '#F2F1EB',
-  svgFilter: 'invert(28%) sepia(7%) saturate(933%) hue-rotate(193deg) brightness(91%) contrast(94%)',
-};
-
-export const greenTheme = {
-  background: '#65ccb8',
-  text: '#4057A1',
-  headers: '#65ccb8',
-  svgFilter: 'invert(28%) sepia(7%) saturate(933%) hue-rotate(193deg) brightness(91%) contrast(94%)',
+  dividerFill: '#F23C1F',
+  decorativeFill: '#C5CBE3',
+  svgLinkFill: '#D99923',
 };

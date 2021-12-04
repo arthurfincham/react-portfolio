@@ -24,4 +24,13 @@ export const GlobalStyles = createGlobalStyle`
   .svg {
     filter: ${({ theme }) => theme.svgFilter}
   }
+  .divider{
+    fill: ${({ theme }) => theme.dividerFill}
+  }
+  .decorative{
+    fill: ${({ theme }) => theme.decorativeFill}
+  }
+  .svg-link{
+    fill: ${({ theme }) => theme.svgLinkFill}
+  }
   	`;

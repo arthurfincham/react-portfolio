@@ -3,7 +3,7 @@ import GitHubLogo from './graphics/GitHubLogo.js';
 
 export default function Projects() {
   const svgFill = 'white';
-  const svgClass = 'project-repo-link';
+  const svgClass = 'project-repo-link svg-link';
   return (
     <div className="section-box" id="Projects">
       <h1 className="sticky-thc">Projects</h1>

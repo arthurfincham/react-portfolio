@@ -4,7 +4,7 @@ import CameraIcon from './graphics/CameraIcon.js';
 import Divider from './graphics/Divider';
 export default function Experience() {
   const fill = 'white';
-  const svgClass = 'edu-icons';
+  const svgClass = 'edu-icons decorative';
   return (
     <div className="section-box" id="Experience">
       <h1 className="sticky-thc">Experience</h1>

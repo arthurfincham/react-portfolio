@@ -9,7 +9,7 @@ import IconLinks from './components/IconLinks';
 import './App.css';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './components/globalStyles';
-import { lightTheme, darkTheme, paleTheme, greenTheme } from './components/Themes';
+import { lightTheme, darkTheme, paleTheme } from './components/Themes';
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -24,8 +24,6 @@ function App() {
       return lightTheme;
     } else if (input === 'pale') {
       return paleTheme;
-    } else if (input === 'green') {
-      return greenTheme;
     }
   };
 
@@ -38,7 +36,6 @@ function App() {
           <button onClick={() => themeToggler('dark')}>DARK</button>
           <button onClick={() => themeToggler('light')}>LIGHT</button>
           <button onClick={() => themeToggler('pale')}>pale</button>
-          <button onClick={() => themeToggler('green')}>green</button>
           <div className="Welcome-page">
             <IconLinks />
             <div className="Welcome-text">

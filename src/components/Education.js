@@ -21,7 +21,7 @@ export default function Education() {
           <li className="">Ruby, Rails, JavaScript</li>
           <li className="">RSpec, Jasmine</li>
         </ul>
-        <TechHead fill={fill} svgClass={'svg'} />
+        <TechHead fill={fill} svgClass={'decorative'} svgId={'tech-head'} />
       </div>
       <Divider fill={fill} />
       <div className="item-container">
@@ -32,7 +32,7 @@ export default function Education() {
             <h5 className="">2018-2021</h5>
             <p className="">First Class Honours</p>
           </div>
-          <TechHead fill={fill} svgClass={'svg'} />
+          <UniIcon fill={fill} svgClass={'decorative'} />
         </div>
         <ul>
           <li className="">Thesis on The Consequences of Determinism for Moral Responsibility.</li>
