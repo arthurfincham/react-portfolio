@@ -21,7 +21,7 @@ export default function Project({ props, iconData, rowOrder }) {
             </div>
             {iconData}
           </div>
-          <p>{props.description}</p>
+          <p className="project-description">{props.description}</p>
         </div>
       </div>
     </>

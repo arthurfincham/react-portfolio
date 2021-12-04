@@ -8,25 +8,21 @@ export default function AnchorLinks() {
         <a href="#Education" className="anchor">
           Education
         </a>
-        <HandLine fill={fill} />
       </div>
       <div className="anchor-container">
         <a href="#Experience" className="anchor">
           Experience
         </a>
-        <HandLine fill={fill} />
       </div>
       <div className="anchor-container">
         <a href="#Projects" className="anchor">
           Projects
         </a>
-        <HandLine fill={fill} />
       </div>
       <div className="anchor-container">
         <a href="#Contact" className="anchor">
           Contact
         </a>
-        <HandLine fill={fill} />
       </div>
     </div>
   );

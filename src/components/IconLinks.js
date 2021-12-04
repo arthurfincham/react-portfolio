@@ -2,8 +2,8 @@ import GitHubLogo from './graphics/GitHubLogo.js';
 import LinkedInLogo from './graphics/LinkedInLogo';
 
 export default function IconLinks() {
-  const fill = 'white';
-  const svgClass = 'dev-link-icon svg-link';
+  const fill = '#4057A1';
+  const svgClass = 'dev-link-icon';
   return (
     <header className="App-header">
       <a className="logo-link" target="blank" href="https://github.com/arthurfincham">

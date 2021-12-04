@@ -33,4 +33,7 @@ export const GlobalStyles = createGlobalStyle`
   .svg-link{
     fill: ${({ theme }) => theme.svgLinkFill}
   }
+  .dev-link-icon{
+    color: ${({ theme }) => theme.text} !important;
+  }
   	`;

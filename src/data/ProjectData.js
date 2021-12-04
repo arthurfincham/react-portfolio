@@ -20,7 +20,7 @@ export const instaclone = {
     "Instagram clone with likes, comments, tags and the various views found in the app.Tags are dynamically created from the caption of a post. A helper method extracts any strings beginning with '#', then adds them to the post's tag_list.",
 };
 export const summary = {
-  title: 'News Summary',
+  title: 'Summary',
   repoURL: 'https://github.com/',
   subTitle: 'Weekend Challenge',
   description:

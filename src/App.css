@@ -2,9 +2,7 @@
   text-align: center;
   color: white;
   background-color: #000000;
-  width: 100%;
-  padding-left: 2em;
-  padding-right: 2em;
+  width: 90%;
   max-width: 1000px !important;
   margin: 0 auto;
 }
@@ -12,29 +10,24 @@
 .Welcome-page {
   height: 100vh;
   width: 100%;
-  padding-left: 1em;
-  padding-right: 1em;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.space-around {
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .App-header {
-  position: absolute;
-  top: 3vh;
-  right: 20vw;
   display: flex;
 }
 
 .dev-link-icon {
   width: 4em;
-}
-
-#App-logo {
-  transform: rotate(100deg);
-  height: 50vmin;
-  position: absolute;
-  top: 30vh;
-  left: -15vw;
-  pointer-events: none;
 }
 
 .Welcome-text {
@@ -43,12 +36,6 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   max-width: 12ch;
-  color: white;
-  position: absolute;
-  margin: 0 auto;
-  top: 15vh;
-  left: 50%;
-  transform: translate(-50%, 50%);
 }
 
 .Welcome-text > * {
@@ -65,34 +52,11 @@
   padding: 0;
 }
 
-.logo-link:hover {
-  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
-}
-
-.hand-line {
-  max-width: 100%;
-  max-height: 100%;
-  margin: 0;
-  margin-bottom: 0.2em;
-  margin-top: 0.2em;
-  padding: 0;
-  display: block;
-}
-
 .anchor-box {
-  position: absolute;
   width: 16ch;
-  bottom: 10vh;
-  right: 20vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-
-@media only screen and (max-width: 800px) {
-  .anchor-box {
-    right: 32vw;
-  }
 }
 
 .anchor-container {
@@ -102,9 +66,51 @@
 
 .anchor {
   font-family: 'Biotif-Bold';
-  color: white;
   font-size: 2em;
+  text-decoration: underline;
+  text-decoration-color: #f23c1f;
+}
+
+.anchor {
+  position: relative;
   text-decoration: none;
+  padding-bottom: 1px;
+}
+
+.anchor:before,
+.anchor:after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #f37272;
+}
+.anchor:before {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+}
+.anchor:after {
+  opacity: 0;
+  transform: translateY(4px);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+.anchor:hover:before,
+.anchor:focus:before,
+.anchor:hover:after,
+.anchor:focus:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+.anchor:hover:before,
+.anchor:focus:before {
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+.anchor:hover:after,
+.anchor:focus:after {
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
 }
 
 @keyframes name-of-animation {
@@ -304,4 +310,8 @@
 
 .mt-3 {
   margin-top: 3em;
+}
+
+p {
+  line-height: 1.5em;
 }
