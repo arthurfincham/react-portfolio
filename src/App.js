@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import plant from './svgs/nounPlant.svg';
+import PlantIcon from './components/graphics/PlantIcon';
 import AnchorLinks from './components/AnchorLinks';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -29,6 +29,7 @@ function App() {
     }
   };
 
+  const fill = 'white';
   return (
     <>
       <ThemeProvider theme={themePicker(theme)}>
@@ -44,7 +45,7 @@ function App() {
               <h6>hello, i am</h6>
               <h1>arthur</h1>
             </div>
-            <img src={plant} className="svg" id="App-logo" alt="logo" />
+            <PlantIcon fill={fill} svgClass="svg" />
             <AnchorLinks />
           </div>
           <Education className="education-section" />

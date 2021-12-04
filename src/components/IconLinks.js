@@ -1,5 +1,5 @@
 import GitHubLogo from './graphics/GitHubLogo.js';
-import linkLogo from '../svgs/linkedinLogo.svg';
+import LinkedInLogo from './graphics/LinkedInLogo';
 
 export default function IconLinks() {
   return (
@@ -8,7 +8,7 @@ export default function IconLinks() {
         <GitHubLogo fill={'white'} svgClass={'dev-link-icon'} />
       </a>
       <a className="logo-link" target="blank" href="https://www.linkedin.com/in/arthurfincham/">
-        <img src={linkLogo} className="svg dev-link-icon" alt="logo" />
+        <LinkedInLogo fill={'white'} svgClass={'dev-link-icon'} />
       </a>
     </header>
   );

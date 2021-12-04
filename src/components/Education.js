@@ -1,4 +1,4 @@
-import uniIcon from '../svgs/uniIcon.svg';
+import UniIcon from './graphics/UniIcon';
 import Divider from './graphics/Divider';
 import TechHead from './graphics/TechHead';
 export default function Education() {
@@ -32,7 +32,7 @@ export default function Education() {
             <h5 className="">2018-2021</h5>
             <p className="">First Class Honours</p>
           </div>
-          <img src={uniIcon} id="uni-icon" className="svg White-line" alt="logo" />
+          <TechHead fill={fill} svgClass={'svg'} />
         </div>
         <ul>
           <li className="">Thesis on The Consequences of Determinism for Moral Responsibility.</li>

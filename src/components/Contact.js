@@ -1,13 +1,14 @@
-import locIcon from '../svgs/locationIcon.svg';
-import emailIcon from '../svgs/emailIcon.svg';
+import EmailIcon from './graphics/EmailIcon';
+import LocationIcon from './graphics/LocationIcon';
 export default function Contact() {
+  const fill = 'white';
   return (
     <div className="section-box" id="Contact">
       <h1 className="sticky-thc">Contact</h1>
       <div className="flex-col centered h-75">
-        <img src={locIcon} className="loc-icon" alt="location" />
+        <LocationIcon fill={fill} svgClass={'loc-icon'} />
         <h3>London, United Kingdom</h3>
-        <img src={emailIcon} className="svg email-icon" alt="email" />
+        <EmailIcon fill={fill} svgClass={'email-icon'} />
         <h3>arthurfincham@me.com</h3>
       </div>
     </div>

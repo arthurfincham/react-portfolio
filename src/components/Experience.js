@@ -1,6 +1,6 @@
-import cookingIcon from '../svgs/cookingIcon.svg';
+import ChefIcon from './graphics/ChefIcon';
 import BjjIcon from './graphics/BjjIcon.js';
-import cameraIcon from '../svgs/cameraIcon.svg';
+import CameraIcon from './graphics/CameraIcon.js';
 import Divider from './graphics/Divider';
 export default function Experience() {
   const fill = 'white';
@@ -31,7 +31,7 @@ export default function Experience() {
             <h4>Chef/Owner</h4>
             <h5 className="">Jul 2016 - April 2019</h5>
           </div>
-          <img src={cookingIcon} className="edu-icons svg" alt="logo" />
+          <ChefIcon fill={fill} svgClass={svgClass} />
         </div>
         <p className="">
           When I was 17 I set up a food stall for Notting Hill Carnival. Over the years my love for cooking turned into a small catering company that
@@ -47,7 +47,7 @@ export default function Experience() {
             <h4>Floor Runner</h4>
             <h5 className="">May 2016 - June 2016</h5>
           </div>
-          <img src={cameraIcon} className="edu-icons svg" alt="logo" />
+          <CameraIcon fill={fill} svgClass={svgClass} />
         </div>
         <p className="">
           Over 6 weeks I worked as a runner during the production of Episodes, Showtime & BBC. Logistics and maintaining the smooth flow of the shoot
