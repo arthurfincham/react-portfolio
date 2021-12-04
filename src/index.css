@@ -16,7 +16,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000000;
-  width: 90vw !important;
+  width: 100vw;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 90vw;
+  }
 }
 
 * {
