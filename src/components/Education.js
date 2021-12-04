@@ -11,11 +11,9 @@ export default function Education() {
         <div className="flex-row ">
           <div>
             <h2>Makers Academy</h2>
-            <div className="flex-row w-90">
-              <div className="flex-col">
-                <h4>Software Engineering</h4>
-                <h3>2021</h3>
-              </div>
+            <div className="flex-col">
+              <h4>Software Engineering</h4>
+              <h3>2021</h3>
             </div>
             <p>16 week highly selective development bootcamp;</p>
             <ul>

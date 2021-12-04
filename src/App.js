@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PlantIcon from './components/graphics/PlantIcon';
 import AnchorLinks from './components/AnchorLinks';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -33,16 +32,12 @@ function App() {
       <ThemeProvider theme={themePicker(theme)}>
         <GlobalStyles />
         <div className="App">
-          <button onClick={() => themeToggler('dark')}>DARK</button>
-          <button onClick={() => themeToggler('light')}>LIGHT</button>
-          <button onClick={() => themeToggler('pale')}>pale</button>
           <div className="Welcome-page">
             <IconLinks />
             <div className="Welcome-text">
               <h6>hello, i am</h6>
               <h1>arthur</h1>
             </div>
-            <PlantIcon fill={fill} svgClass="svg" />
             <AnchorLinks />
           </div>
           <Education className="education-section" />
