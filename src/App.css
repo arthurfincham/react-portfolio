@@ -186,8 +186,9 @@
 
 #tech-head {
   width: 50vmin;
+  height: auto;
   position: absolute;
-  bottom: 0;
+  bottom: 3vh;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -195,9 +196,9 @@
 
 @media only screen and (max-width: 800px) {
   #tech-head {
-    width: 60vmin;
+    width: 50vmin;
     position: absolute;
-    bottom: 5vh;
+    bottom: 3vh;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
