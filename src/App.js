@@ -34,10 +34,12 @@ function App() {
         <div className="App">
           <div className="Welcome-page">
             <IconLinks />
+
             <div className="Welcome-text">
               <h6>hello, i am</h6>
               <h1>arthur</h1>
             </div>
+
             <AnchorLinks />
           </div>
           <Education className="education-section" />

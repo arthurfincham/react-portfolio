@@ -1,6 +1,7 @@
 import UniIcon from './graphics/UniIcon';
 import Divider from './graphics/Divider';
 import TechHead from './graphics/TechHead';
+
 export default function Education() {
   const fill = 'white';
   return (
