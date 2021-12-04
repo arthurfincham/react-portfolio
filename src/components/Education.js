@@ -1,7 +1,8 @@
 import uniIcon from '../svgs/uniIcon.svg';
-import plusLine from '../svgs/plusDivider.svg';
-import techHead from '../svgs/techHead.svg';
+import Divider from './graphics/Divider';
+import TechHead from './graphics/TechHead';
 export default function Education() {
+  const fill = 'white';
   return (
     <div className="section-box" id="Education">
       <h1 className="sticky-thc">Education</h1>
@@ -20,9 +21,9 @@ export default function Education() {
           <li className="">Ruby, Rails, JavaScript</li>
           <li className="">RSpec, Jasmine</li>
         </ul>
-        <img src={techHead} className="svg" id="tech-head" alt="techhead" />
+        <TechHead fill={fill} />
       </div>
-      <img src={plusLine} className="svg Plus-line" alt="logo" />
+      <Divider fill={fill} />
       <div className="item-container">
         <h2>King's College London</h2>
         <div className="flex-row w-90">
@@ -39,7 +40,7 @@ export default function Education() {
           <li className="">Half of my degree was spent at home due to Covid, which threw me into the deep end of working remotely!</li>
         </ul>
       </div>
-      <img src={plusLine} className="svg Plus-line" alt="logo" />
+      <Divider fill={fill} />
     </div>
   );
 }

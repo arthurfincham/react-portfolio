@@ -1,7 +1,9 @@
-import plusLine from '../svgs/plusDivider.svg';
-import githubLogo from '../svgs/githubLogo.svg';
+import Divider from './graphics/Divider';
+import GitHubLogo from './graphics/GitHubLogo.js';
 
 export default function Projects() {
+  const svgFill = 'white';
+  const svgClass = 'project-repo-link';
   return (
     <div className="section-box" id="Projects">
       <h1 className="sticky-thc">Projects</h1>
@@ -9,7 +11,7 @@ export default function Projects() {
         <div className="flex-row row-center">
           <h2>ClassNotes</h2>
           <a href="a">
-            <img src={githubLogo} className="svg project-repo-link" alt="GitHub Logo" />
+            <GitHubLogo fill={svgFill} svgClass={svgClass} />
           </a>
         </div>
         <h5>Personal Project</h5>
@@ -19,12 +21,12 @@ export default function Projects() {
           can write down what you learned, tag it, and then build a repository of techniques and ideas that can be quickly accessed.
         </p>
       </div>
-      <img src={plusLine} className="svg Plus-line" alt="logo" />
+      <Divider fill={svgFill} />
       <div className="item-container">
         <div className="flex-row row-center">
           <h2>acebook</h2>
           <a href="b">
-            <img src={githubLogo} className="svg project-repo-link" alt="GitHub Logo" />
+            <GitHubLogo fill={svgFill} svgClass={svgClass} />
           </a>
         </div>
         <h5>Group engineering project</h5>
@@ -33,12 +35,12 @@ export default function Projects() {
           such as sprints to build our features and a Kanban board on Trello to keep track of our progress.
         </p>
       </div>
-      <img src={plusLine} className="svg Plus-line" alt="logo" />
+      <Divider fill={svgFill} />
       <div className="item-container">
         <div className="flex-row row-center">
           <h2>Instaclone</h2>
           <a href="a">
-            <img src={githubLogo} className="svg project-repo-link" alt="GitHub Logo" />
+            <GitHubLogo fill={svgFill} svgClass={svgClass} />
           </a>
         </div>
         <h5>Weekend Challenge</h5>
@@ -47,12 +49,12 @@ export default function Projects() {
           helper method extracts any strings beginning with '#', then adds them to the post's tag_list.
         </p>
       </div>
-      <img src={plusLine} className="svg Plus-line" alt="logo" />
+      <Divider fill={svgFill} />
       <div className="item-container">
         <div className="flex-row row-center">
           <h2>News Summary</h2>
           <a href="c">
-            <img src={githubLogo} className="svg project-repo-link" alt="GitHub Logo" />
+            <GitHubLogo fill={svgFill} svgClass={svgClass} />
           </a>
         </div>
         <h5>Weekend Challenge</h5>
@@ -60,12 +62,12 @@ export default function Projects() {
           API based news summary project. Makers Solo Weekend Challenge: build a single web page app which summarises stories from the Guardian API.
         </p>
       </div>
-      <img src={plusLine} className="svg Plus-line" alt="logo" />
+      <Divider fill={svgFill} />
       <div className="item-container">
         <div className="flex-row row-center">
           <h2>Instaclone</h2>
           <a href="c">
-            <img src={githubLogo} className="svg project-repo-link" alt="GitHub Logo" />
+            <GitHubLogo fill={svgFill} svgClass={svgClass} />
           </a>
         </div>
         <h5>Weekend Challenge</h5>

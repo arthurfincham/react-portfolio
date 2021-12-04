@@ -1,7 +1,7 @@
 import cookingIcon from '../svgs/cookingIcon.svg';
 import bjjIcon from '../svgs/bjjIcon.svg';
 import cameraIcon from '../svgs/cameraIcon.svg';
-import plusLine from '../svgs/plusDivider.svg';
+import Divider from './graphics/Divider';
 export default function Experience() {
   return (
     <div className="section-box" id="Experience">
@@ -22,7 +22,7 @@ export default function Experience() {
         </p>
       </div>
       <div className="item-container">
-        <img src={plusLine} className="svg Plus-line" alt="logo" />
+        <Divider fill={'white'} />
         <h2>Torni's Kitchen</h2>
         <div className="flex-row">
           <div className="flex-col">
@@ -37,7 +37,7 @@ export default function Experience() {
           and management on the job. We catered for anything from 4 to 30 people.
         </p>
       </div>
-      <img src={plusLine} className="svg Plus-line" alt="logo" />
+      <Divider fill={'white'} />
       <div className="item-container">
         <h2>Hat Trick Productions</h2>
         <div className="flex-row">
@@ -53,7 +53,7 @@ export default function Experience() {
           needed for the early starts and long hours each day.
         </p>
       </div>
-      <img src={plusLine} className="svg Plus-line" alt="logo" />
+      <Divider fill={'white'} />
     </div>
   );
 }

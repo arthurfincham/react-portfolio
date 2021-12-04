@@ -1,4 +1,3 @@
-import plusLine from '../svgs/plusDivider.svg';
 import locIcon from '../svgs/locationIcon.svg';
 import emailIcon from '../svgs/emailIcon.svg';
 export default function Contact() {
