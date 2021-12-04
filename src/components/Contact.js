@@ -4,10 +4,7 @@ import emailIcon from '../svgs/emailIcon.svg';
 export default function Contact() {
   return (
     <div className="section-box" id="Contact">
-      <div className="sticky-thc">
-        <h1 className="">Contact</h1>
-        <img src={plusLine} className="svg Plus-line" alt="logo" />
-      </div>
+      <h1 className="sticky-thc">Contact</h1>
       <div className="flex-col centered h-75">
         <img src={locIcon} className="loc-icon" alt="location" />
         <h3>London, United Kingdom</h3>

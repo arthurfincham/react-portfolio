@@ -4,10 +4,7 @@ import ghText from '../svgs/githubText.svg';
 export default function Projects() {
   return (
     <div className="section-box" id="Projects">
-      <div className="sticky-thc">
-        <h1 className="">Projects</h1>
-        <img src={plusLine} className="svg Plus-line" alt="logo" />
-      </div>
+      <h1 className="sticky-thc">Projects</h1>
       <div className="item-container">
         <h2>ClassNotes</h2>
         <div className="flex-row">

@@ -4,10 +4,8 @@ import techHead from '../svgs/techHead.svg';
 export default function Education() {
   return (
     <div className="section-box" id="Education">
-      <div className="sticky-thc">
-        <h1 className="">Education</h1>
-        <img src={plusLine} className="svg Plus-line" alt="logo" />
-      </div>
+      <h1 className="sticky-thc">Education</h1>
+      {/* <img src={plusLine} className="svg sticky-thc Plus-line" alt="logo" /> */}
       <div className="item-container">
         <h2>Makers Academy</h2>
         <div className="flex-row w-90">

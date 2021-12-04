@@ -8,9 +8,10 @@ export const GlobalStyles = createGlobalStyle`
     background-color: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.text};
   }
-  .sticky-thc{
+  .sticky-thc {
     background-color: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.text};
+
   }
   h1, h2, h3, h4, h5, h6, p, li, a {
     background-color: ${({ theme }) => theme.background};

@@ -5,12 +5,9 @@ import plusLine from '../svgs/plusDivider.svg';
 export default function Experience() {
   return (
     <div className="section-box" id="Experience">
-      <div className="sticky-thc">
-        <h1 className="">Experience</h1>
-        <img src={plusLine} className="Plus-line svg" alt="logo" />
-      </div>
+      <h1 className="sticky-thc">Experience</h1>
       <div className="item-container">
-        <h1>Roger Gracie Academy</h1>
+        <h2>Roger Gracie Academy</h2>
         <div className="flex-row">
           <div className="flex-col">
             <h4>Front Desk</h4>
@@ -26,7 +23,7 @@ export default function Experience() {
       </div>
       <div className="item-container">
         <hr className="" />
-        <h1>Torni's Kitchen</h1>
+        <h2>Torni's Kitchen</h2>
         <div className="flex-row">
           <div className="flex-col">
             <h4>Chef/Owner</h4>
@@ -42,7 +39,7 @@ export default function Experience() {
       </div>
       <hr className="" />
       <div className="item-container">
-        <h1>Hat Trick Productions</h1>
+        <h2>Hat Trick Productions</h2>
         <div className="flex-row">
           <div className="flex-col">
             <h4>Floor Runner</h4>

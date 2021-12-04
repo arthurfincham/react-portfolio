@@ -32,12 +32,12 @@ function App() {
   return (
     <>
       <ThemeProvider theme={themePicker(theme)}>
-        <button onClick={() => themeToggler('dark')}>DARK</button>
-        <button onClick={() => themeToggler('light')}>LIGHT</button>
-        <button onClick={() => themeToggler('pale')}>pale</button>
-        <button onClick={() => themeToggler('green')}>green</button>
         <GlobalStyles />
         <div className="App">
+          <button onClick={() => themeToggler('dark')}>DARK</button>
+          <button onClick={() => themeToggler('light')}>LIGHT</button>
+          <button onClick={() => themeToggler('pale')}>pale</button>
+          <button onClick={() => themeToggler('green')}>green</button>
           <div className="Welcome-page">
             <IconLinks />
             <div className="Welcome-text">
