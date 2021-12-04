@@ -1,6 +1,6 @@
 export default function CameraIcon({ fill, svgClass }) {
   return (
-    <svg width="100" height="auto" fill={fill} className={svgClass} viewBox="117.282 285.349 981.763 612.553" xmlns="http://www.w3.org/2000/svg">
+    <svg width="100%" height="100%" fill={fill} className={svgClass} viewBox="117.282 285.349 981.763 612.553" xmlns="http://www.w3.org/2000/svg">
       <g>
         <path d="m281.52 762h-144v-264h144zm-120-24h96v-216h-96z" />
         <path d="m761.52 822h-504v-324h504zm-480-24h456v-276h-456z" />

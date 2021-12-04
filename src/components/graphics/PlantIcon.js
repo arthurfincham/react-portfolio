@@ -1,8 +1,8 @@
 export default function PlantIcon({ fill, svgClass }) {
   return (
     <svg
-      width="100"
-      height="auto"
+      width="100%"
+      height="100%"
       fill={fill}
       className={svgClass}
       id="App-logo"
