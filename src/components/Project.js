@@ -7,17 +7,21 @@ export default function Project({ props, iconData, rowOrder }) {
   return (
     <>
       <Divider fill={svgFill} />
-      <div className="item-container">
-        <div className={rowOrder}>
-          <div className="flex-col w-45ch">
-            <a href={props.repoURL}>
-              <GitHubLogo fill={svgFill} svgClass={svgClass} />
-            </a>
-            <h2>{props.title}</h2>
-            <h5>{props.subTitle}</h5>
-            <p>{props.description}</p>
+      <div className="item-container mt-3">
+        <div className="flex-row w-100">
+          <div className={rowOrder}>
+            <div className="project-title-link">
+              <a href={props.repoURL}>
+                <GitHubLogo fill={svgFill} svgClass={svgClass} />
+              </a>
+              <div className="project-titles">
+                <h1>{props.title}</h1>
+                <h5>{props.subTitle}</h5>
+              </div>
+            </div>
+            {iconData}
           </div>
-          {iconData}
+          <p>{props.description}</p>
         </div>
       </div>
     </>

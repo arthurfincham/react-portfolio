@@ -127,13 +127,32 @@
 .sticky-thc {
   top: 0;
   position: sticky;
-  padding-top: 0.5em;
+  padding-top: 0.3em;
   z-index: 5;
+}
+
+@media screen and (max-width: 600px) {
+  .sticky-thc {
+    padding-top: 1em;
+  }
 }
 
 .flex-col {
   display: flex;
   flex-direction: column;
+}
+
+.project-title-link {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+  .project-title-link {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+  }
 }
 
 .flex-col-right {
@@ -151,7 +170,7 @@
 .flex-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -159,9 +178,10 @@
 .flex-row-rev {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: right;
+  flex-wrap: wrap;
 }
 
 .flex-row-rev > * {
@@ -256,10 +276,29 @@
 
 .acebook-preview {
   width: 60vmin;
-  margin: 0;
 }
 
 .instaclone-preview {
   width: 25vmin;
-  margin: 0;
+}
+
+.summary-preview {
+  width: 65vmin;
+}
+
+.classnotes-preview {
+  width: 60vmin;
+}
+
+.chitter-preview {
+  width: 60vmin;
+}
+
+.project-titles > * {
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+}
+
+.mt-3 {
+  margin-top: 3em;
 }
