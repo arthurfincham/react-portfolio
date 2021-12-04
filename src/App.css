@@ -153,12 +153,14 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .flex-row-rev {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+  align-items: center;
   text-align: right;
 }
 
@@ -169,10 +171,15 @@
 .w-90 {
   width: 90%;
 }
-
+.w-100 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 .divider {
   margin: 0 auto;
-  width: 100%;
+  width: 60%;
+  text-align: center;
 }
 
 .edu-icons {
@@ -244,5 +251,15 @@
 }
 
 .job-icons {
-  width: 30vmin;
+  width: 40vmin;
+}
+
+.acebook-preview {
+  width: 60vmin;
+  margin: 0;
+}
+
+.instaclone-preview {
+  width: 25vmin;
+  margin: 0;
 }
