@@ -6,6 +6,7 @@ export default function Project({ props }) {
   const svgClass = 'project-repo-link svg-link';
   return (
     <>
+      <Divider fill={svgFill} />
       <div className="item-container">
         <div className="flex-row row-center">
           <h2>{props.title}</h2>
@@ -16,7 +17,6 @@ export default function Project({ props }) {
         <h5>{props.subTitle}</h5>
         <p>{props.description}</p>
       </div>
-      <Divider fill={svgFill} />
     </>
   );
 }

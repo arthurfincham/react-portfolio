@@ -12,7 +12,7 @@ import { GlobalStyles } from './components/globalStyles';
 import { lightTheme, darkTheme, paleTheme } from './components/Themes';
 
 function App() {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('pale');
   const themeToggler = (input) => {
     setTheme(input);
   };
