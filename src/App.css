@@ -16,10 +16,21 @@
   align-items: center;
 }
 
-.space-around {
+@media only screen and (max-width: 600px) {
+  .Welcome-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+.space-evenly {
   text-align: center;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .App-header {
@@ -127,7 +138,7 @@
   padding-right: 1em;
   position: relative;
   text-align: left;
-  min-height: 100vh;
+  min-height: fit-content;
 }
 
 .flex-col {
@@ -185,6 +196,29 @@
   flex-wrap: wrap;
 }
 
+.flex-row-rev-summary {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  text-align: right;
+  flex-wrap: wrap;
+}
+
+.flex-row-rev-summary > .project-title-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-row-rev-summary > .project-title-link {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+}
+
 .flex-row-rev > * {
   text-align: right;
 }
@@ -230,7 +264,7 @@
   height: auto;
   position: relative;
   margin-bottom: 3em;
-  min-height: 80vh;
+  min-height: fit-content;
 }
 
 #tech-head {
@@ -284,6 +318,10 @@
   width: 40vmin;
 }
 
+.bjj-icon {
+  width: 40vmin;
+}
+
 .acebook-preview {
   width: 60vmin;
 }
@@ -309,10 +347,24 @@
   margin-top: 0.1em;
 }
 
+@media only screen and (max-width: 600px) {
+  .chitter-preview,
+  .summary-preview,
+  .classnotes-preview,
+  .acebook-preview {
+    width: 100%;
+  }
+}
+
 .mt-3 {
   margin-top: 3em;
 }
 
 p {
   line-height: 1.5em;
+}
+
+.project-description {
+  width: 60ch;
+  text-align: left;
 }

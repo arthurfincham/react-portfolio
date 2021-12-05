@@ -10,7 +10,7 @@ export default function Experience() {
   return (
     <div className="section-box" id="Experience">
       <h1 className="sticky-thc">Experience</h1>
-      <Job props={RGA} rowOrder={'flex-row'} iconData={<BjjIcon fill={fill} svgClass={svgClass} />} />
+      <Job props={RGA} rowOrder={'flex-row'} iconData={<BjjIcon fill={fill} svgClass={'bjj-icon'} />} />
       <Job props={Torni} rowOrder={'flex-row-rev'} iconData={<ChefIcon fill={fill} svgClass={svgClass} />} />
       <Job props={HatTrick} rowOrder={'flex-row'} iconData={<CameraIcon fill={fill} svgClass={svgClass} />} />
     </div>

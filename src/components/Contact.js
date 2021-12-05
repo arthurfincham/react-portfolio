@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="section-box" id="Contact">
       <h1 className="sticky-thc">Contact</h1>
-      <div className="flex-col space-around h-75">
+      <div className="flex-col space-evenly h-75">
         <div className="flex-col centered">
           <LocationIcon fill={fill} svgClass={'loc-icon'} />
           <h3>London, United Kingdom</h3>

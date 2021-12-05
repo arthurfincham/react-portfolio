@@ -21,7 +21,11 @@ export default function Projects() {
         iconData={<img src={instacloneSketch} className="instaclone-preview" alt="instaclone" />}
       />
       <Project props={acebook} rowOrder={'flex-row w-100'} iconData={<img src={acebookSketch} className="acebook-preview" alt="acebook" />} />
-      <Project props={summary} rowOrder={'flex-row-rev w-100'} iconData={<img src={summarySketch} className="summary-preview" alt="summary" />} />
+      <Project
+        props={summary}
+        rowOrder={'flex-row-rev-summary w-100'}
+        iconData={<img src={summarySketch} className="summary-preview" alt="summary" />}
+      />
       <Project props={chitter} rowOrder={'flex-row w-100'} iconData={<img src={chitterSketch} className="chitter-preview" alt="chitter" />} />
     </div>
   );

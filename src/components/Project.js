@@ -24,7 +24,11 @@ export default function Project({ props, iconData, rowOrder }) {
               {iconData}
             </Fade>
           </div>
-          <p className="project-description">{props.description}</p>
+          <div className="project-description">
+            {props.description.map((item) => {
+              return <p>{item}</p>;
+            })}
+          </div>
         </div>
       </div>
     </>

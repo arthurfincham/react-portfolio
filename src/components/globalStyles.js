@@ -36,4 +36,7 @@ export const GlobalStyles = createGlobalStyle`
   .dev-link-icon{
     color: ${({ theme }) => theme.text} !important;
   }
+  .bjj-icon{
+    fill: ${({ theme }) => theme.text} !important;
+  }
   	`;
