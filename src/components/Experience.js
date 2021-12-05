@@ -1,7 +1,6 @@
 import ChefIcon from './graphics/ChefIcon';
 import BjjIcon from './graphics/BjjIcon.js';
 import CameraIcon from './graphics/CameraIcon.js';
-import Divider from './graphics/Divider';
 import Job from './Job';
 import { RGA, Torni, HatTrick } from '../data/ExperienceData';
 
