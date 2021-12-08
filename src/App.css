@@ -364,11 +364,6 @@ p {
   line-height: 1.5em;
 }
 
-.project-description {
-  width: 60ch;
-  text-align: left;
-}
-
 .item-wrapper {
   display: flex;
   flex-direction: row;
@@ -398,7 +393,7 @@ p {
 }
 
 .item-image {
-  width: calc(100% - 45ch);
+  width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
