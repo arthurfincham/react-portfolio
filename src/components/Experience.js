@@ -5,14 +5,13 @@ import Job from './Job';
 import { RGA, Torni, HatTrick } from '../data/ExperienceData';
 
 export default function Experience() {
-  const fill = 'white';
-  const svgClass = 'job-icons decorative';
+  const svgClass = 'svg-stroke svg';
   return (
     <div className="section-box" id="Experience">
       <h1 className="sticky-thc">Experience</h1>
-      <Job props={RGA} rowOrder={'flex-row'} iconData={<BjjIcon fill={fill} svgClass={'job-icons'} />} />
-      <Job props={Torni} rowOrder={'flex-row-rev'} iconData={<ChefIcon fill={fill} svgClass={svgClass} />} />
-      <Job props={HatTrick} rowOrder={'flex-row'} iconData={<CameraIcon fill={fill} svgClass={svgClass} />} />
+      <Job props={RGA} rowOrder={'item-wrapper'} iconData={<BjjIcon svgClass={svgClass} />} />
+      <Job props={Torni} rowOrder={'item-wrapper-rev'} iconData={<ChefIcon svgClass={'svg-stroke'} />} />
+      <Job props={HatTrick} rowOrder={'item-wrapper'} iconData={<CameraIcon svgClass={'svg-fill'} />} />
     </div>
   );
 }

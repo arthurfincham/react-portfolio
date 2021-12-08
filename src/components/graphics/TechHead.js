@@ -1,9 +1,8 @@
-export default function TechHead({ fill, svgClass, svgId }) {
+export default function TechHead({ svgClass, svgId }) {
   return (
     <svg
       width="100%"
       height="100%"
-      fill={fill}
       className={svgClass}
       id={svgId}
       data-name="Layer 1"

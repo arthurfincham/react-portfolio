@@ -1,4 +1,4 @@
-export default function BjjIcon({ fill, svgClass }) {
+export default function BjjIcon({ svgClass }) {
   return (
     <svg className={svgClass} width="100%" height="auto" fill="none" stroke="#4057A1" viewBox="0 0 1057.4 1060.5" xmlns="http://www.w3.org/2000/svg">
       <path
