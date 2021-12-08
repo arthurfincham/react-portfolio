@@ -4,7 +4,7 @@ import TechHead from './graphics/TechHead';
 import Fade from 'react-reveal/Fade';
 
 export default function Education() {
-  const svgClass = 'svg-fill svg';
+  const svgClass = 'svg-stroke svg';
   return (
     <div className="section-box" id="Education">
       <h1 className="sticky-thc">Education</h1>
