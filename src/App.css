@@ -289,11 +289,6 @@
   }
 }
 
-.project-repo-link {
-  width: 15vmin;
-  margin: 0;
-}
-
 @media only screen and (max-width: 700px) {
   .project-repo-link {
     margin-right: 1em;
@@ -461,4 +456,21 @@ p {
 .svg-stroke {
   stroke: #4057a1;
   fill: #e9ebf3;
+}
+.flex-col-rev {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-repo-link {
+  margin-top: 2em;
+  width: 15vmin;
+  fill: #042a63;
 }
