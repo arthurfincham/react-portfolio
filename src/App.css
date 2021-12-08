@@ -378,6 +378,17 @@ p {
   margin-bottom: 1em;
 }
 
+@media only screen and (max-width: 700px) {
+  .item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
 .item-text {
   width: 45ch;
   display: flex;
@@ -417,7 +428,36 @@ p {
   margin-right: 0;
 }
 
+@media only screen and (max-width: 700px) {
+  .item-wrapper-rev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .item-wrapper-rev > .item-text {
+    align-items: left;
+    text-align: left;
+  }
+
+  .item-wrapper-rev > .item-text > * {
+    margin-left: 0;
+  }
+
+  .item-image {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .svg {
+  padding: 1em;
 }
 
 .svg-fill {

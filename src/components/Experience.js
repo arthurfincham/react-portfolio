@@ -10,8 +10,8 @@ export default function Experience() {
     <div className="section-box" id="Experience">
       <h1 className="sticky-thc">Experience</h1>
       <Job props={RGA} rowOrder={'item-wrapper'} iconData={<BjjIcon svgClass={svgClass} />} />
-      <Job props={Torni} rowOrder={'item-wrapper-rev'} iconData={<ChefIcon svgClass={'svg-stroke'} />} />
-      <Job props={HatTrick} rowOrder={'item-wrapper'} iconData={<CameraIcon svgClass={'svg-stroke'} />} />
+      <Job props={Torni} rowOrder={'item-wrapper-rev'} iconData={<ChefIcon svgClass={svgClass} />} />
+      <Job props={HatTrick} rowOrder={'item-wrapper'} iconData={<CameraIcon svgClass={svgClass} />} />
     </div>
   );
 }

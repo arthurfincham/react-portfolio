@@ -1,6 +1,6 @@
 export default function CameraIcon({ svgClass }) {
   return (
-    <svg className={svgClass} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1426.43 1032.46">
+    <svg width="100%" height="auto" className={svgClass} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1426.43 1032.46">
       <defs></defs>
       <path
         class="cls-1"

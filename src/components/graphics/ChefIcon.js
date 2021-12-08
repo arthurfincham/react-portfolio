@@ -1,6 +1,6 @@
 export default function ChefIcon({ svgClass }) {
   return (
-    <svg className={svgClass} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1105.15 1050.24">
+    <svg width="100%" height="auto" className={svgClass} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1105.15 1050.24">
       <defs></defs>
       <path
         class="cls-1"
