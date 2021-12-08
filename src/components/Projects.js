@@ -2,7 +2,7 @@ import Project from './Project';
 import acebookSketch from './sketches/acebookSketch.svg';
 import instacloneSketch from './sketches/instacloneSketch.svg';
 import summarySketch from './sketches/summarySketch.svg';
-import classnotesSketch from './sketches/classnotesSketch.svg';
+import classnotesSketch2 from './sketches/classnotesSketch2.svg';
 import chitterSketch from './sketches/chitterSketch.svg';
 
 import { classNotes, acebook, instaclone, summary, chitter } from '../data/ProjectData';
@@ -13,7 +13,7 @@ export default function Projects() {
       <Project
         props={classNotes}
         rowOrder={'flex-row w-100'}
-        iconData={<img src={classnotesSketch} className="classnotes-preview" alt="classNotes" />}
+        iconData={<img src={classnotesSketch2} className="classnotes-preview" alt="classNotes" />}
       />
       <Project
         props={instaclone}
