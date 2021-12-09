@@ -337,6 +337,10 @@
   width: 60vmin;
 }
 
+.makersbnb-preview {
+  width: 65vmin;
+}
+
 .project-titles > * {
   margin-bottom: 0.1em;
   margin-top: 0.1em;
@@ -346,7 +350,8 @@
   .chitter-preview,
   .summary-preview,
   .classnotes-preview,
-  .acebook-preview {
+  .acebook-preview,
+  .makersbnb-preview {
     width: 100%;
   }
 }
