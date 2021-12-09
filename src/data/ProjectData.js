@@ -1,6 +1,6 @@
 export const classNotes = {
   title: 'ClassNotes',
-  repoURL: 'https://github.com/',
+  repoURL: 'https://github.com/arthurfincham/classnotesv2',
   subTitle: 'Personal Project',
   description: [
     'One of my hobbies is Brazilian Jiu Jitsu, a martial art which depends on the accumilation of knowledge and skill.',
@@ -10,7 +10,7 @@ export const classNotes = {
 };
 export const acebook = {
   title: 'acebook',
-  repoURL: 'https://github.com/',
+  repoURL: 'https://github.com/emanfolo/acebook-Jeamm-Team',
   subTitle: 'Group Engineering Project',
   description: [
     'Bootcamp group enginering project.',
@@ -20,7 +20,7 @@ export const acebook = {
 };
 export const instaclone = {
   title: 'Instaclone',
-  repoURL: 'https://github.com/',
+  repoURL: 'https://github.com/arthurfincham/insta-clone',
   subTitle: 'Weekend Challenge',
   description: [
     'Instagram clone with likes, comments, tags and the various views found in the app.',
@@ -30,7 +30,7 @@ export const instaclone = {
 };
 export const summary = {
   title: 'Summary',
-  repoURL: 'https://github.com/',
+  repoURL: 'https://github.com/arthurfincham/news-summary-challenge',
   subTitle: 'Weekend Challenge',
   description: [
     'API based news summary project.',
@@ -39,7 +39,7 @@ export const summary = {
 };
 export const chitter = {
   title: 'Chitter',
-  repoURL: 'https://github.com/',
+  repoURL: 'https://github.com/arthurfincham/chitter-challenge',
   subTitle: 'Weekend Challenge',
   description: [
     'Twitter clone, Boostrap only for front-end (no custom CSS).',

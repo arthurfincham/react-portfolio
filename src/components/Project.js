@@ -21,7 +21,7 @@ export default function Project({ props, iconData, rowOrder }) {
           <div className="item-flex-col">
             {iconData}
             <Pulse delay={300}>
-              <a href={props.repoURL}>
+              <a href={props.repoURL} target="blank">
                 <GitHubLogo fill={svgFill} svgClass={svgClass} />
               </a>
             </Pulse>
