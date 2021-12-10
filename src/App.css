@@ -554,9 +554,7 @@ h1.project-h1 {
   .navbar {
     height: 5vh;
     width: 90%;
-
-    padding-top: 1em;
-    padding-bottom: 0.2em;
+    padding-top: 1.5em;
   }
   .dev-link-icon {
     width: 2.5em;
