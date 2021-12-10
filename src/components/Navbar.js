@@ -1,5 +1,6 @@
 import React from 'react';
 import IconLinks from './IconLinks';
+import Fade from 'react-reveal/Fade';
 
 export default function Navbar({ section1InView, section2InView, section3InView, section4InView, section5InView }) {
   let determineTitle = () => {
@@ -22,7 +23,11 @@ export default function Navbar({ section1InView, section2InView, section3InView,
   let sectionTitle = determineTitle;
   return (
     <nav className="navbar">
-      <h1 className="navTitle">{sectionTitle()}</h1>
+      <h1 className="navTitle">
+        <Fade duration={1000} spy={sectionTitle()}>
+          {sectionTitle()}
+        </Fade>
+      </h1>
       <IconLinks />
     </nav>
   );
