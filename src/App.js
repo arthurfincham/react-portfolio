@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import AnchorLinks from './components/AnchorLinks';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
