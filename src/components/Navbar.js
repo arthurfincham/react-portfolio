@@ -1,4 +1,5 @@
 import React from 'react';
+import IconLinks from './IconLinks';
 
 export default function Navbar({ section1InView, section2InView, section3InView, section4InView, section5InView }) {
   let determineTitle = () => {
@@ -21,7 +22,8 @@ export default function Navbar({ section1InView, section2InView, section3InView,
   let sectionTitle = determineTitle;
   return (
     <nav className="navbar">
-      <h3 className="navTitle">{sectionTitle()}</h3>
+      <h1 className="navTitle">{sectionTitle()}</h1>
+      <IconLinks />
     </nav>
   );
 }

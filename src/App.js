@@ -3,7 +3,6 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import IconLinks from './components/IconLinks';
 import './App.css';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './components/globalStyles';
@@ -49,7 +48,6 @@ function App() {
           />
           <div className="Welcome-page" ref={section1Ref}>
             <div className="Welcome-text">
-              <IconLinks />
               <h1>arthur fincham</h1>
               <h4>i am a full-stack developer with an eye for design. Makers Academy grad. currently enjoying Ruby on Rails and React.</h4>
             </div>
