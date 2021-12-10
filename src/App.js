@@ -33,11 +33,11 @@ function App() {
         <GlobalStyles />
         <div className="App">
           <div className="Welcome-page">
-            <IconLinks />
-
             <div className="Welcome-text">
-              <h6>hello, i am</h6>
-              <h1>arthur</h1>
+              <IconLinks />
+
+              <h1>arthur fincham</h1>
+              <h4>i am a full-stack developer with an eye for design. Makers Academy grad. currently enjoying Ruby on Rails and React.</h4>
             </div>
 
             <AnchorLinks />
