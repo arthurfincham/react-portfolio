@@ -2,7 +2,7 @@ import { Fab, Action } from 'react-tiny-fab';
 import JumpRope from './graphics/JumpRope';
 export default function JumpTo() {
   return (
-    <Fab alwaysShowTitle={true} icon={<JumpRope />} mainButtonStyles={{ padding: '0px', backgroundColor: '#e9ebf3' }}>
+    <Fab className="jump-to-button" alwaysShowTitle={true} icon={<JumpRope />} mainButtonStyles={{ padding: '0px', backgroundColor: '#e9ebf3' }}>
       <a href="#Contact" className="anchor">
         Contact
       </a>
