@@ -403,7 +403,7 @@ h1.project-h1 {
   height: 100vh;
 }
 
-.navbar {
+.navbar-desktop {
   width: 100%;
   max-width: 90vw;
   height: 10vh;
@@ -415,6 +415,29 @@ h1.project-h1 {
   justify-content: space-between;
   align-items: flex-end;
   padding-bottom: 1em;
+}
+
+.navbar-mob {
+  display: none;
+  width: 100%;
+  max-width: 90vw;
+  height: 10vh;
+  position: fixed;
+  background-color: #f2f1eb;
+  z-index: 10;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar-mob {
+    display: flex;
+  }
+  .navbar-desktop {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1100px) {

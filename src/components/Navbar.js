@@ -95,10 +95,36 @@ export default function Navbar({ section1InView, section2InView, section3InView,
     }
   };
   let sectionTitle = determineTitle;
+
+  let determineMobTitle = () => {
+    if (section1InView) {
+      return '';
+    }
+    if (section2InView) {
+      return 'Education';
+    }
+    if (section3InView) {
+      return 'Experience';
+    }
+    if (section4InView) {
+      return 'Projects';
+    }
+    if (section5InView) {
+      return 'Contact';
+    }
+  };
+  let mobTitle = determineMobTitle;
+
   return (
-    <nav className="navbar">
-      {sectionTitle()}
-      <IconLinks />
-    </nav>
+    <>
+      <nav className="navbar-desktop">
+        {sectionTitle()}
+        <IconLinks />
+      </nav>
+      <nav className="navbar-mob">
+        <h2 className="navTitle">{mobTitle()}</h2>
+        <IconLinks />
+      </nav>
+    </>
   );
 }
