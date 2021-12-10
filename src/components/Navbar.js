@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 export default function Navbar({ section1InView, section2InView, section3InView, section4InView, section5InView }) {
   let determineTitle = () => {
     if (section1InView) {
-      return 'Hello';
+      return '';
     }
     if (section2InView) {
       return 'Education';
@@ -23,11 +23,11 @@ export default function Navbar({ section1InView, section2InView, section3InView,
   let sectionTitle = determineTitle;
   return (
     <nav className="navbar">
-      <h1 className="navTitle">
+      <h2 className="navTitle">
         <Fade duration={500} spy={sectionTitle()}>
           {sectionTitle()}
         </Fade>
-      </h1>
+      </h2>
       <IconLinks />
     </nav>
   );

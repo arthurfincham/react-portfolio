@@ -5,7 +5,6 @@ export default function Contact({ section5Ref }) {
   const fill = '#4057A1';
   return (
     <div className="section-box" id="Contact" ref={section5Ref}>
-      <h1 className="sticky-thc">Contact</h1>
       <div className="flex-col space-evenly h-75">
         <div className="flex-col centered">
           <LocationIcon fill={fill} svgClass={'loc-icon'} />
