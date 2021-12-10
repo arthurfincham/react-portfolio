@@ -11,12 +11,11 @@ import Fade from 'react-reveal/Fade';
 import Pulse from 'react-reveal/Pulse';
 
 import { classNotes, acebook, instaclone, summary, chitter, makersbnb } from '../data/ProjectData';
-export default function Projects() {
+export default function Projects({ section4Ref }) {
   const svgFill = 'white';
   const svgClass = 'project-repo-link';
   return (
-    <div className="section-box" id="Projects">
-      <h1 className="sticky-thc">Projects</h1>
+    <div className="section-box" id="Projects" ref={section4Ref}>
       <Project
         props={classNotes}
         rowOrder={'item-wrapper'}
@@ -30,7 +29,7 @@ export default function Projects() {
               <h1 className="project-h1">{instaclone.title}</h1>
               <h5>{instaclone.subTitle}</h5>
               {instaclone.description.map((item) => {
-                return <p>{item}</p>;
+                return <p key={item}>{item}</p>;
               })}
             </div>
             <div className="insta-col">

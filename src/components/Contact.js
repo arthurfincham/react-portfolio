@@ -1,10 +1,10 @@
 import EmailIcon from './graphics/EmailIcon';
 import IconLinks from './IconLinks';
 import LocationIcon from './graphics/LocationIcon';
-export default function Contact() {
+export default function Contact({ section5Ref }) {
   const fill = '#4057A1';
   return (
-    <div className="section-box" id="Contact">
+    <div className="section-box" id="Contact" ref={section5Ref}>
       <h1 className="sticky-thc">Contact</h1>
       <div className="flex-col space-evenly h-75">
         <div className="flex-col centered">

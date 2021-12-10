@@ -15,7 +15,11 @@ export default function Project({ props, iconData, rowOrder }) {
             <h1 className="project-h1">{props.title}</h1>
             <h5>{props.subTitle}</h5>
             {props.description.map((item) => {
-              return <p className="project-description">{item}</p>;
+              return (
+                <p key={item} className="project-description">
+                  {item}
+                </p>
+              );
             })}
           </div>
           <div className="item-flex-col">

@@ -3,11 +3,10 @@ import Divider from './graphics/Divider';
 import TechHead from './graphics/TechHead';
 import Fade from 'react-reveal/Fade';
 
-export default function Education() {
+export default function Education({ section2Ref }) {
   const svgClass = 'svg-stroke svg';
   return (
-    <div className="section-box" id="Education">
-      <h1 className="sticky-thc">Education</h1>
+    <div className="section-box" id="Education" ref={section2Ref}>
       <Divider />
       <div className="item-wrapper">
         <div className="item-text">

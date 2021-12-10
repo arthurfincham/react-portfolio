@@ -8,7 +8,8 @@ import './App.css';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './components/globalStyles';
 import { lightTheme, darkTheme, paleTheme } from './components/Themes';
-import JumpTo from './components/JumpTo';
+import { useInView } from 'react-intersection-observer';
+import Navbar from './components/Navbar';
 
 function App() {
   const [theme, setTheme] = useState('pale');
@@ -26,24 +27,37 @@ function App() {
     }
   };
 
+  const [section1Ref, section1InView] = useInView({ threshold: 0.5 });
+  const [section2Ref, section2InView] = useInView({ threshold: 0.5 });
+  const [section3Ref, section3InView] = useInView({ threshold: 0.5 });
+  const [section4Ref, section4InView] = useInView({ threshold: 0.5 });
+  const [section5Ref, section5InView] = useInView({ threshold: 0.5 });
+
   const fill = 'white';
   return (
     <>
       <ThemeProvider theme={themePicker(theme)}>
         <GlobalStyles />
+
         <div className="App">
-          <JumpTo />
-          <div className="Welcome-page">
+          <Navbar
+            section1InView={section1InView}
+            section2InView={section2InView}
+            section3InView={section3InView}
+            section4InView={section4InView}
+            section5InView={section5InView}
+          />
+          <div className="Welcome-page" ref={section1Ref}>
             <div className="Welcome-text">
               <IconLinks />
               <h1>arthur fincham</h1>
               <h4>i am a full-stack developer with an eye for design. Makers Academy grad. currently enjoying Ruby on Rails and React.</h4>
             </div>
           </div>
-          <Education className="education-section" />
-          <Experience />
-          <Projects />
-          <Contact />
+          <Education className="education-section" section2Ref={section2Ref} />
+          <Experience section3Ref={section3Ref} />
+          <Projects section4Ref={section4Ref} />
+          <Contact section5Ref={section5Ref} />
         </div>
       </ThemeProvider>
     </>
