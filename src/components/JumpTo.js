@@ -1,4 +1,4 @@
-import { Fab } from 'react-tiny-fab';
+import { Fab, Action } from 'react-tiny-fab';
 import JumpRope from './graphics/JumpRope';
 export default function JumpTo() {
   return (

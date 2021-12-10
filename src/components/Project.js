@@ -12,10 +12,10 @@ export default function Project({ props, iconData, rowOrder }) {
       <Fade cascade>
         <div className={rowOrder}>
           <div className="item-text">
-            <h1>{props.title}</h1>
+            <h1 className="project-h1">{props.title}</h1>
             <h5>{props.subTitle}</h5>
             {props.description.map((item) => {
-              return <p>{item}</p>;
+              return <p className="project-description">{item}</p>;
             })}
           </div>
           <div className="item-flex-col">

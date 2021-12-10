@@ -78,7 +78,7 @@
 
 .anchor {
   font-family: 'Biotif-Bold';
-  font-size: 1.2em;
+  font-size: 2em;
   text-decoration: underline;
   text-decoration-color: #f23c1f;
 }
@@ -368,10 +368,10 @@ p {
 .item-wrapper {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 @media only screen and (max-width: 700px) {
@@ -381,7 +381,7 @@ p {
 }
 
 .item-text {
-  width: 45ch;
+  width: 35ch;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -417,10 +417,10 @@ p {
 .item-wrapper-rev {
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 @media only screen and (max-width: 700px) {
@@ -480,4 +480,51 @@ p {
   margin-top: 2em;
   width: 15vmin;
   fill: #042a63;
+}
+
+.insta-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 700px) {
+  .insta-wrapper {
+    flex-direction: column;
+  }
+}
+.insta-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .insta-col {
+    width: 100%;
+  }
+}
+
+h1.project-h1 {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .Welcome-text > h4 {
+    width: 80%;
+  }
+  .Welcome-text > h1 {
+    font-size: 3.5em;
+    line-height: 1em;
+  }
+  .dev-link-icon {
+    font-size: 1.1em;
+  }
+  .Welcome-text > * {
+    margin-top: 15px;
+  }
 }
