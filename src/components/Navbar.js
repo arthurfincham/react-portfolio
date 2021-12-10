@@ -24,7 +24,7 @@ export default function Navbar({ section1InView, section2InView, section3InView,
   return (
     <nav className="navbar">
       <h1 className="navTitle">
-        <Fade duration={1000} spy={sectionTitle()}>
+        <Fade duration={500} spy={sectionTitle()}>
           {sectionTitle()}
         </Fade>
       </h1>
