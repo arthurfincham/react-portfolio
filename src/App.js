@@ -9,6 +9,7 @@ import './App.css';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './components/globalStyles';
 import { lightTheme, darkTheme, paleTheme } from './components/Themes';
+import JumpTo from './components/JumpTo';
 
 function App() {
   const [theme, setTheme] = useState('pale');
@@ -32,15 +33,13 @@ function App() {
       <ThemeProvider theme={themePicker(theme)}>
         <GlobalStyles />
         <div className="App">
+          <JumpTo />
           <div className="Welcome-page">
             <div className="Welcome-text">
               <IconLinks />
-
               <h1>arthur fincham</h1>
               <h4>i am a full-stack developer with an eye for design. Makers Academy grad. currently enjoying Ruby on Rails and React.</h4>
             </div>
-
-            <AnchorLinks />
           </div>
           <Education className="education-section" />
           <Experience />
