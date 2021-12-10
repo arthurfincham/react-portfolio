@@ -27,11 +27,11 @@ function App() {
     }
   };
 
-  const [section1Ref, section1InView] = useInView({ threshold: 0.5 });
-  const [section2Ref, section2InView] = useInView({ threshold: 0.5 });
-  const [section3Ref, section3InView] = useInView({ threshold: 0.5 });
-  const [section4Ref, section4InView] = useInView({ threshold: 0.5 });
-  const [section5Ref, section5InView] = useInView({ threshold: 0.5 });
+  const [section1Ref, section1InView] = useInView({ threshold: 0.1 });
+  const [section2Ref, section2InView] = useInView({ threshold: 0.1 });
+  const [section3Ref, section3InView] = useInView({ threshold: 0.1 });
+  const [section4Ref, section4InView] = useInView({ threshold: 0.1 });
+  const [section5Ref, section5InView] = useInView({ threshold: 0.1 });
 
   const fill = 'white';
   return (
