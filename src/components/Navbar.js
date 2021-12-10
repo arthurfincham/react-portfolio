@@ -27,10 +27,3 @@ export default function Navbar({ section1InView, section2InView, section3InView,
     </nav>
   );
 }
-
-//  <nav
-//    className="NavBar"
-//    style={{
-//      backgroundColor: section1InView ? 'red' : section2InView ? 'blue' : 'green',
-//    }}
-//  />;
