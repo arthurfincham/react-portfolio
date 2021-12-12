@@ -4,11 +4,13 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import './App.css';
+import './Styles.css';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './components/globalStyles';
 import { lightTheme, darkTheme, paleTheme } from './components/Themes';
 import { useInView } from 'react-intersection-observer';
 import Navbar from './components/Navbar';
+import IconLinks from './components/IconLinks';
 
 function App() {
   const [theme, setTheme] = useState('pale');
@@ -48,6 +50,7 @@ function App() {
           />
           <div className="Welcome-page" ref={section1Ref}>
             <div className="Welcome-text">
+              <IconLinks />
               <h1>arthur fincham</h1>
               <h4>i am a full-stack developer with an eye for design. Makers Academy grad. currently enjoying Ruby on Rails and React.</h4>
             </div>

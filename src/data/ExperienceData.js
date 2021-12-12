@@ -4,7 +4,7 @@ export const RGA = {
   role: 'Front Desk',
   dates: 'Nov 2019 - Aug 2021',
   description:
-    "For my last few years at university I worked at Roger Gracie Academy, a world famous Brazilian Jiu Jitsu academy in London. My responsibilities include carrying out duties at the front desk and building and maintaining the academy's website. As well as working there, I have been training for around 3 years.",
+    "For my last few years at university I worked at Roger Gracie Academy, a world famous Brazilian Jiu Jitsu academy in London. My responsibilities included selling memberships, welcoming students and building the academy's website. As well as working there, I have been training for around 3 years.",
 };
 
 export const Torni = {

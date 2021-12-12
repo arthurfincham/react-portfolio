@@ -13,8 +13,7 @@ export const acebook = {
   repoURL: 'https://github.com/emanfolo/acebook-Jeamm-Team',
   subTitle: 'Group Engineering Project',
   description: [
-    'Bootcamp group enginering project.',
-    ' Our task was to build a clone of Facebook in teams while working remotely. ',
+    ' Our task was to build a clone of Facebook in teams while working remotely due to Covid. ',
     'We used agile methodologies such as sprints to build our features and a Kanban board on Trello to keep track of our progress.',
   ],
 };

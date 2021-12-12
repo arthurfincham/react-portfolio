@@ -1,0 +1,35 @@
+.three_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+}
+
+.three_wrapper > .w-100,
+.three_wrapper > .w-100 > .divider {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .three_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.three_item {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .three_wrapper:nth-child(2),
+  .three_item {
+    flex-direction: column;
+  }
+}
