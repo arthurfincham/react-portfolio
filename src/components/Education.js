@@ -54,7 +54,6 @@ export default function Education({ section2Ref }) {
           methodologies through tools like Trello and <span className="text-darker">GitHub</span>, we made good progress and got a taste of working in
           the real world.
         </p>
-        ;
       </div>
     </div>
   );
