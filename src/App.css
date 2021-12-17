@@ -1,6 +1,7 @@
 @import './css/Typography.css';
 @import './css/layouts/Third.css';
 @import './css/layouts/Half.css';
+@import './css/layouts/Education.css';
 
 .App {
   text-align: center;
